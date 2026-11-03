@@ -54,4 +54,3 @@ async def joke_handler(message: Message):
         'Так ты даже не знаешь что такое Суперхлоп',
     ]
     await message.answer(random.choice(jokes))
-
