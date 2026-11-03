@@ -5,4 +5,3 @@ token = config("TOKEN")
 
 bot = Bot(token=token)
 dp = Dispatcher()
-
