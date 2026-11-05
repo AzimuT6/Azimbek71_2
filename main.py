@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from config import bot, dp
-# from handlers import commands, echo, fsm_add_product
+from handlers import commands, echo, fsm_add_product
 from handlers import commands, echo, fsm_add_product, fsm_drink, fsm_film
 
 
