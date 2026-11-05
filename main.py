@@ -1,13 +1,14 @@
 import asyncio
 import logging
 from config import bot, dp
-from handlers import commands, echo, fsm_add_product
-from handlers import commands, echo, fsm_add_product, fsm_drink
+# from handlers import commands, echo, fsm_add_product
+from handlers import commands, echo, fsm_add_product, fsm_drink, fsm_film
 
 
 dp.include_router(router=commands.router_commands)
 dp.include_router(router=fsm_add_product.router_add_product)
 dp.include_router(router=fsm_drink.router_drink)
+dp.include_router(router=fsm_film.router_add_film)
 
 dp.include_router(router=echo.router_echo)
 
